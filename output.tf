@@ -19,7 +19,3 @@ output "private_subnet_ids" {
 output "database_subnet_ids" {
     value = aws_subnet.database[*].id
 }
-
-
-VPC
-    subnets
