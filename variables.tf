@@ -83,6 +83,6 @@ variable "database_route_table_tags" {
 
 
 
-# variable "vpc_peering_tags" { 
-#   default     = {}
-# }
+variable "vpc_peering_tags" { 
+  default     = {}
+}
